@@ -20,8 +20,7 @@
   
   .character-card img {
     width: 100%;
-    max-width: 200px;
-    height: auto;
+    width: 200px;
     margin-bottom: 16px;
   }
   
@@ -29,4 +28,9 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+  }
+
+  .click{
+    text-align: center;
+    padding: 10px;
   }
