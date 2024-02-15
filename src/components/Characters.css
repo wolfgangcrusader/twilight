@@ -1,0 +1,32 @@
+.characters-hero {
+    height: 300px;
+    background-image: url('https://e0.pxfuel.com/wallpapers/200/450/desktop-wallpaper-green-forest-fog-nature-trees-dawn-widescreen-16-10-widescreen-background-3116-1680x1050-forest-fog.jpg'); /* Path to your image */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .character-card {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 16px;
+    margin-bottom: 16px;
+    text-align: center;
+    width: 25%; /* Adjust this value to control the number of cards per row */
+  }
+  
+  .character-card img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 16px;
+  }
+  
+  .char-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }

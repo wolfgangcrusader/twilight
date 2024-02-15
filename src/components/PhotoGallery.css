@@ -1,0 +1,35 @@
+.photo-gallery {
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .gallery-container{
+    background-color: rgb(64, 78, 74);
+  }
+  
+  .photo-gallery h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .photo-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .photo-item {
+    width: 33.333%;
+    padding: 1rem;
+    box-sizing: border-box;
+  }
+  
+  .photo-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 0.25rem;
+  }
